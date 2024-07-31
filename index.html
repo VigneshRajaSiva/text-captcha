@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CAPTCHA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="captcha-container">
+        <img src="captcha_image.png" alt="CAPTCHA Image" class="captcha-image">
+        <input type="text" id="captcha-input" placeholder="Enter CAPTCHA">
+        <button type="button" onclick="validateCaptcha()">Submit</button>
+        <p id="error-message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
